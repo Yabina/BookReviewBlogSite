@@ -1,0 +1,87 @@
+/* Reset default browser styles */
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  .main {
+    min-height: 100%;
+    width: 100%;
+  }
+  
+  header {
+    height: 50px;
+    width: 100%;
+    background-color: rgb(85, 51, 51);;
+    color:#fff;
+    text-align: center;
+
+    
+  }
+
+
+  li {
+    padding: 0 10px;
+    width: 500px;
+   
+  }
+  
+  ul,
+  li {
+    list-style: none;
+  }
+  
+  h2 {
+    padding-bottom: 20px;
+  }
+  
+  footer {
+    height: 100px;
+    width: 100%;
+  }
+
+.book-review {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    
+}
+
+.book-review h2 {
+    color:#000;
+    justify-content: center;
+}
+
+.book-review p {
+    margin-bottom: 10px;
+    color:#000;
+}
+
+a:link { color: black; display: inline-block;}
+a:visited { color: black; display: inline-block;}
+
+button {
+    border: none;
+    cursor: pointer;
+    appearance: none;
+    background-color: inherit;
+   
+    margin: 10px;
+    display: inline-block;
+  }
+ 
+  .button-container {
+    display: flex;
+    justify-content: space-around; /* Adjust as needed */
+    position: relative;
+    
+}
+
+.button img {
+    width: 300px; /* Ensure image fills button */
+    height: 300px; /* Ensure image fills button */
+    object-fit:cover; /* Ensure image covers button */
+    margin: -40px;
+    display: inline-block;
+}
